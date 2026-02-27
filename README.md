@@ -29,3 +29,9 @@ his project uses the **IMDb Dataset of 50K Movie Reviews** from Kaggle.
 2. Download the dataset (`IMDB Dataset.csv`).
 3. Place the downloaded file in your project directory.
 4. Run the notebook code (e.g., `sentiment_analysis.ipynb`) to train and evaluate the models.
+
+## 📄 Sample dataset 
+
+A smaller sample (`dataset_sample.csv`) is included for quick testing. This is a representative subset of 5,000 reviews.
+
+

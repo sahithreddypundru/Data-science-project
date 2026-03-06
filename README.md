@@ -34,4 +34,69 @@ his project uses the **IMDb Dataset of 50K Movie Reviews** from Kaggle.
 
 A smaller sample (`dataset_sample.csv`) is included for quick testing. This is a representative subset of 5,000 reviews.
 
+## Machine Learning Models Used
+
+The following classical machine learning models were implemented and compared:
+
+1.Logistic Regression
+
+2.Linear Support Vector Machine (SVM)
+
+3.Multinomial Naive Bayes
+
+4.Random Forest
+
+## Feature Engineering
+
+Text data was converted into numerical features using TF-IDF (Term Frequency – Inverse Document Frequency) vectorisation.
+
+This allows machine learning models to process text data by transforming words into weighted numerical representations.
+
+## Evaluation Metrics
+
+Model performance was evaluated using multiple metrics:
+
+* Accuracy
+
+* F1-score
+
+* Cross-validation score
+
+* ROC-AUC score
+
+* Classification report (precision, recall, F1-score)
+
+These metrics provide a comprehensive evaluation of classification performance.
+
+## Why the Full Dataset is Not Included
+
+GitHub does not allow files larger than 25MB to be uploaded directly through the web interface.
+Since the dataset exceeds this limit, it is not included in the repository.
+
+## How to Use the Dataset
+
+Download the dataset from the Kaggle link above.
+
+Place the dataset file (IMDB Dataset.csv) inside the project folder.
+
+Run the project code or notebook to train and evaluate the models.
+
+## Sample Dataset
+
+A smaller dataset file (dataset_sample.csv) containing 5,000 reviews is included in this repository for quick testing and demonstration purposes.
+
+## Technologies Used
+
+* Python
+
+* Pandas
+
+* NumPy
+
+* Scikit-learn
+
+ * Matplotlib
+
+* Natural Language Processing techniques
+
 
